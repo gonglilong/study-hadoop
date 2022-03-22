@@ -33,7 +33,7 @@ public class HDFSIO {
 		
 		// 4 流的对拷
 		IOUtils.copyBytes(fis, fos, conf);
-		
+		System.out.print("测试");
 		// 5 关闭资源
 		IOUtils.closeStream(fos);
 		IOUtils.closeStream(fis);
